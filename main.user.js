@@ -6,7 +6,7 @@
 // @author       TC999
 // @match        http://www.coze.com/*
 // @grant        none
-// @require      https://code.jquery.com/jquery-3.5.1.min.js
+// @require      https://raw.githubusercontent.com/TC999/coze-chinese/main/locals.js
 // ==/UserScript==
 
 (function() {
