@@ -20,7 +20,7 @@
 */
 var I18N = {};
 
-I18N.conf = {
+//I18N.conf = {
     /**
      * 要翻译的页面正则(不含仓库页)
      *
@@ -28,7 +28,7 @@ I18N.conf = {
      * GitHub 网站更新 调整 Class 过滤规则
      * 且过滤 Class 并不是总是生效，增加 PathName 规则补充
      */
-    rePageClass: /\b(page-(profile|new-repo|create-org)|session-authentication)\b/,
+    //rePageClass: /\b(page-(profile|new-repo|create-org)|session-authentication)\b/,
 
     /**
      * 匹配 pathname 页面的正则
@@ -51,7 +51,7 @@ I18N.conf = {
      * 导入仓库 /new/import
      * ...
      */
-    rePagePath: /^\/($|explore|space)/,
+    //rePagePath: /^\/($|explore|space)/,
 
 
     /**
@@ -78,7 +78,7 @@ I18N.conf = {
      * tree 视图 文件名 react-directory-filename-column 提交信息 react-directory-commit-message
      * 代码差异页面 代码 pl-s1|pl-smi|pl-token|pl-c1|pl-kos|pl-k|pl-c|pl-en
      */
-    reIgnoreClass: /(cm-line|ͼ.*|pl-s1|pl-smi|pl-token|pl-c1|pl-kos|pl-k|pl-c|pl-en|CodeMirror|blob-code|highlight-.*|repo-and-owner|js-path-segment|final-path|files js-navigation-container|js-comment-body|js-preview-body|comment-form-textarea|markdown-title|js-tree-finder-virtual-filter|js-navigation-open Link--primary|js-modifier-key|capped-list-label|blob-code blob-code-inner js-file-line|markdown-body my-3|f4 my-3|commit-author|search-match|react-directory-filename-column|react-directory-commit-message|react-code-text)/,
+    //reIgnoreClass: /(cm-line|ͼ.*|pl-s1|pl-smi|pl-token|pl-c1|pl-kos|pl-k|pl-c|pl-en|CodeMirror|blob-code|highlight-.*|repo-and-owner|js-path-segment|final-path|files js-navigation-container|js-comment-body|js-preview-body|comment-form-textarea|markdown-title|js-tree-finder-virtual-filter|js-navigation-open Link--primary|js-modifier-key|capped-list-label|blob-code blob-code-inner js-file-line|markdown-body my-3|f4 my-3|commit-author|search-match|react-directory-filename-column|react-directory-commit-message|react-code-text)/,
 
     /**
      * 忽略区域的 itemprop 属性正则
@@ -86,24 +86,24 @@ I18N.conf = {
      * author 仓库页 作者名称
      * additionalName 个人主页 附加名称
      */
-    reIgnoreItemprop: /(name|author|additionalName)/,
+    //reIgnoreItemprop: /(name|author|additionalName)/,
 
     /**
      * 忽略区域的 特定元素id 正则
      * offset /blob页面 符号-->引用
      * fix repo详情页文件路径breadcrumb
      */
-    reIgnoreId: ['readme', 'offset', 'breadcrumb', 'file-name-id'],
+    //reIgnoreId: ['readme', 'offset', 'breadcrumb', 'file-name-id'],
 
     /**
      * 忽略区域的 标签 正则
      * /i 规则不区分大小写
      */
-    reIgnoreTag: ['CODE', 'SCRIPT', 'STYLE', 'LINK', 'IMG', 'MARKED-TEXT', 'PRE', 'KBD'],
+    //reIgnoreTag: ['CODE', 'SCRIPT', 'STYLE', 'LINK', 'IMG', 'MARKED-TEXT', 'PRE', 'KBD'],
     // marked-text --> 文件搜索模式/<user-name>/<repo-name>/find/<branch> 文件列表条目
     // ^script$ --> 避免勿过滤 notifications-list-subscription-form
     // ^pre$ --> 避免勿过滤
-};
+//};
 
 I18N.zh = {};
 
