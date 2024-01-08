@@ -14,7 +14,7 @@
     // 需要确保你的trans.js文件包含类似的对象，并且被正确引入 
     // 例如: var translations = { "Hello": "Hola", "Goodbye": "Adiós" }
     // 你需要使用真实的翻译源文件
-    $.getScript("path/to/your/trans.js", function( data, textStatus, jqxhr ) {
+    $.getScript("https://raw.githubusercontent.com/TC999/coze-chinese/main/locals.js", function( data, textStatus, jqxhr ) {
         console.log("Translation script loaded!");
     });
 
